@@ -1,10 +1,10 @@
-# 🚀 DevOps: Микросервисы через Systemd + iptables
+# DevOps: Микросервисы через Systemd + iptables
 
 **Учебный проект развертывания Go Backend API (:8080), Flask Cache Proxy (:5000) и сетевых правил** на Ubuntu Server через **systemd сервисы**.
 
 [![Статус сервисов](https://github.com/dpanchenko-test/project/raw/master/3.%20Запуск%20сервиса%20(Backend).png)](https://github.com/dpanchenko-test/project)
 
-## 🏗️ Архитектура
+## Архитектура
 Клиент ──HTTP──> Cache API (:5000, Flask+Redis) ──HTTP──> Backend API (:8080, Go+PostgreSQL)
 │
 iptables правила (rules.service)
@@ -22,14 +22,14 @@ PostgreSQL + Redis (локальные сервисы)
 | `control` | Скрипт управления сервисами |
 
 **Скриншоты:**
-## 📸 Скриншоты (исправленные)
+## Скриншоты (исправленные)
 ![1. Виртуалки](https://github.com/dpanchenko-test/project/blob/master/1%20%D0%BF%D0%BE%D0%B4%D0%BD%D1%8F%D1%82%D1%8B%20%D0%B2%D0%B8%D1%80%D1%82%D1%83%D0%B0%D0%BB%D0%BA%D0%B8.png) 
 ![2. БД+Redis](https://github.com/dpanchenko-test/project/blob/master/2.%20%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%B8%D0%BB%D0%B8%20%D0%B1%D0%B4%20%D0%B8%20%D1%80%D0%B5%D0%B4%D0%B8%D1%81.png)
 ![3. Backend](https://github.com/dpanchenko-test/project/blob/master/3.%20%D0%97%D0%B0%D0%BF%D1%83%D1%81%D0%BA%20%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D0%B0%20(Backend).png)
 ![4. Curl Backend](https://github.com/dpanchenko-test/project/blob/master/4.%20%D0%A3%D1%81%D0%BF%D0%B5%D1%88%D0%BD%D1%8B%D0%B8%CC%86%20curl%20%D0%BA%20backend.png)
 ![5. Через прокси](https://github.com/dpanchenko-test/project/blob/master/5.%20%D0%97%D0%B0%D0%BF%D1%80%D0%BE%D1%81%20%D1%87%D0%B5%D1%80%D0%B5%D0%B7%20%D0%BF%D1%80%D0%BE%D0%BA%D1%81%D0%B8.png)
 
-## 🚀 Развертывание (5 минут)
+## Развертывание (5 минут)
 
 ### 1. Подготовка системы
 ```bash
