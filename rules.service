@@ -1,0 +1,14 @@
+[Unit]
+Description=Custom Rules Script
+After=network.target
+Wants=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/etc/rules.sh
+RemainAfterExit=yes
+User=root
+Group=root
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,6 @@
+Maintainer: D.Panchenko <D.panchenko@yandex.ru>
+Package: backend-api
+Version: 1.0
+Architecture: amd64
+Depends: systemd
+Description: Backend API Service

@@ -1,0 +1,14 @@
+[Unit]
+Description=Backend API Service
+After=network.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/usr/local/bin/backend-api
+WorkingDirectory=/var/lib/backend-api
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
