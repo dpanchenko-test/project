@@ -23,7 +23,7 @@ PostgreSQL + Redis (локальные сервисы)
 
 **Скриншоты:**
 ## 📸 Скриншоты (исправленные)
-![1. Виртуалки](https://github.com/dpanchenko-test/project/raw/master/1_podnyaty_virtualki.png)
+![1. Виртуалки](https://github.com/dpanchenko-test/project/blob/master/1%20%D0%BF%D0%BE%D0%B4%D0%BD%D1%8F%D1%82%D1%8B%20%D0%B2%D0%B8%D1%80%D1%82%D1%83%D0%B0%D0%BB%D0%BA%D0%B8.png) 
 ![2. БД+Redis](https://github.com/dpanchenko-test/project/raw/master/2_postavili_bd_redis.png)
 ![3. Backend](https://github.com/dpanchenko-test/project/raw/master/3_zapusk_backend.png)
 ![4. Curl Backend](https://github.com/dpanchenko-test/project/raw/master/4_uspeshnyy_curl_backend.png)
